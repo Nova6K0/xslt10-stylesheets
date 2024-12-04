@@ -157,8 +157,8 @@
 <gentext key="pgs" text="págs."/>
 <gentext key="Revisedby" text="Revisado por: "/>
 <gentext key="revisedby" text="revisado por: "/>
-<gentext key="TableNotes" text="Notas de tabla"/>
-<gentext key="tablenotes" text="notas de tabla"/>
+<gentext key="TableNotes" text="Anotaciones"/>
+<gentext key="tablenotes" text="anotaciones"/>
 <gentext key="TableofContents" text="Tabla de contenidos"/>
 <gentext key="tableofcontents" text="tabla de contenidos"/>
 <gentext key="unexpectedelementname" text="nombre de elemento inesperado"/>
@@ -201,15 +201,15 @@
 <gentext key="Draft" text="Borrador"/>
 <gentext key="above" text="arriba"/>
 <gentext key="below" text="abajo"/>
-<gentext key="sectioncalled" text="sección llamada"/>
+<gentext key="sectioncalled" text="sección elegida"/>
 <gentext key="index symbols" text="Símbolos"/>
 <gentext key="writing-mode" text="lr-tb"/>
 
 <gentext key="lowercase.alpha" text="abcdefghijklmnopqrstuvwxyzáéíóúñ"/> 
 <gentext key="uppercase.alpha" text="ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚÑ"/>
 
-<dingbat key="startquote" text="“"/>
-<dingbat key="endquote" text="”"/>
+<dingbat key="startquote" text="«"/>
+<dingbat key="endquote" text="»"/>
 <dingbat key="nestedstartquote" text="‘"/>
 <dingbat key="nestedendquote" text="’"/>
 <dingbat key="bullet" text="•"/>
@@ -575,7 +575,7 @@
 <template name="Jan">Ene</template>
 <template name="Feb">Feb</template>
 <template name="Mar">Mar</template>
-<template name="Abr">Apr</template>
+<template name="Abr">Abr</template>
 <template name="May">May</template>
 <template name="Jun">Jun</template>
 <template name="Jul">Jul</template>
@@ -703,66 +703,62 @@
   <l i="2">b</l>
   <l i="3">C</l>
   <l i="3">c</l>
-  <l i="4">CH</l>
-  <l i="4">ch</l>
-  <l i="5">D</l>
-  <l i="5">d</l>
-  <l i="6">E</l>
-  <l i="6">e</l>
-  <l i="6">É</l>
-  <l i="6">é</l>
-  <l i="7">F</l>
-  <l i="7">f</l>
-  <l i="8">G</l>
-  <l i="8">g</l>
-  <l i="9">H</l>
-  <l i="9">h</l>
-  <l i="10">I</l>
-  <l i="10">i</l>
-  <l i="10">Í</l>
-  <l i="10">í</l>
-  <l i="11">J</l>
-  <l i="11">j</l>
-  <l i="12">K</l>
-  <l i="12">k</l>
-  <l i="13">L</l>
-  <l i="13">l</l>
-  <l i="14">LL</l>
-  <l i="14">ll</l>
-  <l i="15">M</l>
-  <l i="15">m</l>
-  <l i="16">N</l>
-  <l i="16">n</l>
-  <l i="17">Ñ</l>
-  <l i="17">ñ</l>
-  <l i="18">O</l>
-  <l i="18">o</l>
-  <l i="18">Ó</l>
-  <l i="18">ó</l>
-  <l i="19">P</l>
-  <l i="19">p</l>
-  <l i="20">Q</l>
-  <l i="20">q</l>
-  <l i="21">R</l>
-  <l i="21">r</l>
-  <l i="22">S</l>
-  <l i="22">s</l>
-  <l i="23">T</l>
-  <l i="23">t</l>
-  <l i="24">U</l>
-  <l i="24">u</l>
-  <l i="24">Ú</l>
-  <l i="24">ú</l>
-  <l i="25">V</l>
-  <l i="25">v</l>
-  <l i="26">W</l>
-  <l i="26">w</l>
-  <l i="27">X</l>
-  <l i="27">x</l>
-  <l i="28">Y</l>
-  <l i="28">y</l>
-  <l i="29">Z</l>
-  <l i="29">z</l>
+  <l i="4">D</l>
+  <l i="4">d</l>
+  <l i="5">E</l>
+  <l i="5">e</l>
+  <l i="5">É</l>
+  <l i="5">é</l>
+  <l i="6">F</l>
+  <l i="6">f</l>
+  <l i="7">G</l>
+  <l i="7">g</l>
+  <l i="8">H</l>
+  <l i="8">h</l>
+  <l i="9">I</l>
+  <l i="9">i</l>
+  <l i="9">Í</l>
+  <l i="9">í</l>
+  <l i="10">J</l>
+  <l i="10">j</l>
+  <l i="11">K</l>
+  <l i="11">k</l>
+  <l i="12">L</l>
+  <l i="12">l</l>
+  <l i="13">M</l>
+  <l i="13">m</l>
+  <l i="14">N</l>
+  <l i="14">n</l>
+  <l i="15">Ñ</l>
+  <l i="15">ñ</l>
+  <l i="16">O</l>
+  <l i="16">o</l>
+  <l i="16">Ó</l>
+  <l i="16">ó</l>
+  <l i="17">P</l>
+  <l i="17">p</l>
+  <l i="18">Q</l>
+  <l i="18">q</l>
+  <l i="19">R</l>
+  <l i="19">r</l>
+  <l i="20">S</l>
+  <l i="20">s</l>
+  <l i="21">T</l>
+  <l i="21">t</l>
+  <l i="22">U</l>
+  <l i="22">u</l>
+  <l i="22">Ú</l>
+  <l i="22">ú</l>
+  <l i="23">V</l>
+  <l i="23">v</l>
+  <l i="24">W</l>
+  <l i="24">w</l>
+  <l i="25">X</l>
+  <l i="25">x</l>
+  <l i="26">Y</l>
+  <l i="26">y</l>
+  <l i="27">Z</l>
+  <l i="27">z</l>
 </letters>
 
 </locale>
